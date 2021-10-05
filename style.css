@@ -102,3 +102,27 @@ figure {
 figcaption {
   text-align: center;
 }
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 120px;
+  background-color: #e5e7eb;
+}
+
+.section-three p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.attribution {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.attribution .quoted {
+  font-size: 18px;
+  color: #1f2937;
+}
